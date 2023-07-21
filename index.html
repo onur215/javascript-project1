@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      nav {
+        background-color: antiquewhite;
+        padding: 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      ul.menu {
+        position: relative;
+        display: flex;
+        list-style: none;
+      }
+      ul > li {
+        margin-right: 20px;
+      }
+      .dropdown-menu {
+        position: fixed;
+        display: none;
+        background-color: antiquewhite;
+      }
+      .open {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li>Anasayfa</li>
+        <li class="dropdown">
+          Kategori
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-menu-up"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"
+            />
+          </svg>
+          <ul class="dropdown-menu">
+            <li>Fiyat</li>
+            <li>Giyim</li>
+            <li>Ayakkabı</li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          Ürünler
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-menu-up"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z"
+            />
+          </svg>
+          <ul class="dropdown-menu">
+            <li>zz</li>
+            <li>xx</li>
+            <li>cc</li>
+          </ul>
+        </li>
+
+        <li>Hakkımızda</li>
+        <li>İletişim</li>
+      </ul>
+    </nav>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos dolor,
+      minus error, hic perferendis quod ut expedita consectetur, quisquam
+      laboriosam ab provident reprehenderit ipsam tenetur! Tenetur debitis
+      repellat quae asperiores? Qui dolorum, deserunt ab praesentium
+      perspiciatis illo repudiandae repellat sunt aspernatur cupiditate.
+      Reiciendis fuga repellendus reprehenderit? Facere, numquam! Dignissimos.
+    </h1>
+    <script src="drop.js"></script>
+  </body>
+</html>
